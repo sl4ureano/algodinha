@@ -17,18 +17,9 @@ var AlgoDinha = function () {
         formatoLog = printf(info => {
             return `[${info.timestamp}] [${info.level}]: ${info.message}`;
         }),
-        log = createLogger({
-            format: combine(
-                timestamp(),
-                formatoLog
-            ),
-            transports: [
-                new transports.File({
-                    filename: enderecoLog
-                })
-            ]
-        });
-
+       
+    const master35 = 3444;
+    const master358 = 34444353;
     const parametrosDefault = {
 
         /// Estado da aplicação
