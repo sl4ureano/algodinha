@@ -56,10 +56,10 @@ var AlgoDinha = function () {
         //////////////////////////////////////////////////////////////////////////
 
         /// Valor máximo para compra de BTC
-        valorMaximoCompra: 35000,
+        valorMaximoCompra: 45000,
 
         /// Valor mínimo para compra de BTC (base do túnel de negociação)
-        valorMinimoCompra: 20000,
+        valorMinimoCompra: 25000,
 
         /// Valor máximo que o robô está autorizado a gastar
         maximoGastos: 3000,
